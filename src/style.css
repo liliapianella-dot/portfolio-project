@@ -1,0 +1,50 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #272142;
+}
+
+header {
+  background: #d7eddb;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  margin: 0;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+
+.navbar-custom-color {
+  background: #d7eddb !important;
+}
+
+.change-theme-button {
+  font-size: 18px;
+  height: 1.5;
+  padding: 18px 29.5px;
+  background: #4d6a61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 25px;
+  transition: all 200ms ease-in-out;
+}
+.change-theme-button:hover {
+  background: #e6f3e8;
+  color: #4d6a61;
+  border: none;
+  border-radius: 4px;
+}
