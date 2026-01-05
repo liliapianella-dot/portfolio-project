@@ -85,6 +85,7 @@ p {
   line-height: 27px;
   padding: 15px 30px;
   transition: all 200ms ease-in-out;
+  box-shadow: var(--box-shadow);
 }
 .btn-branding:hover {
   background: var(--primary-color);
@@ -103,28 +104,8 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-/* 
-.project-link a {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--secondary-color);
-  /* box-shadow: black; */
-/* color: white;
-  box-shadow: var(--box-shadow);
-  transition: all 200ms ease-in-out;
-}  */
-/* .talk-link {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center;
-} */
-/* .project-link a:hover {
-  background: #e6f3e8;
-  color: var(--secondary-color);
-  border-radius: 4px;
-} */
+
+/* to check here */
 .email-link {
   color: var(--secondary-color);
   text-decoration: none;
