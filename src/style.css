@@ -14,8 +14,8 @@ body {
 
 header {
   background: var(--primary-color);
-  padding: 100px 50px 100px;
-  margin: 50px auto 0 auto;
+  padding: 50px 50px 100px;
+  margin: 0 auto;
 }
 
 h1,
@@ -32,20 +32,24 @@ h1 {
 h2 {
   font-size: 48px;
 }
+
 h3 {
   font-size: 24px;
   opacity: 0.7;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .navbar-custom-color {
   background: var(--primary-color) !important;
 }
 
+.project-description {
+  padding: 60px 25px;
+}
 .change-theme-button {
   font-size: 16px;
   height: 1.5;
@@ -63,7 +67,7 @@ p {
   color: var(--secondary-color);
   border-radius: 4px;
 }
-.projects-link a {
+.project-link a {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -74,7 +78,7 @@ p {
   box-shadow: var(--box-shadow);
   transition: all 200ms ease-in-out;
 }
-.projects-link a:hover {
+.project-link a:hover {
   background: #e6f3e8;
   color: var(--secondary-color);
   border-radius: 4px;
@@ -90,7 +94,7 @@ p {
   color: #4d6a61 !important;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 48px;
     line-height: 1.5;
@@ -104,9 +108,14 @@ p {
   p {
     text-align: center;
   }
-  .project-link {
-    display: block;
+
+  .project-description {
+    padding: 5px;
+  }
+  .project-link a {
     text-align: center;
-    margin: 0 20px;
+    display: block;
+    margin: 0 auto;
+    width: 95%;
   }
 }
