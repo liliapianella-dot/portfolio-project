@@ -170,7 +170,9 @@ p {
     text-align: center;
     padding: 0;
   }
-
+  .new-app {
+    margin-bottom: 30px !important;
+  }
   .project-description {
     text-align: center;
     padding: 15px 30px;
