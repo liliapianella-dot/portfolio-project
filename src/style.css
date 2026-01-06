@@ -151,6 +151,10 @@ p {
   color: var(--secondary-color);
   text-decoration: underline;
 }
+.about-me {
+  text-align: justify;
+  text-align-last: left;
+}
 footer .social-links a {
   margin: 0 10px;
   color: var(--secondary-color);
@@ -181,9 +185,9 @@ footer .social-links a:hover {
     line-height: 1.2 !important;
   }
 
-  h2 {
+  /* h2 {
     font-size: 18px !important;
-  }
+  } */
   h3 {
     margin-bottom: 0;
   }
