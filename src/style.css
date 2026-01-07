@@ -31,13 +31,15 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: var(--heading-font-family);
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
   color: #272142;
 }
+
 h1 {
   font-size: 96px;
   line-height: 1.5;
@@ -52,6 +54,7 @@ h3 {
 h4 {
   font-size: 48px;
 }
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -128,18 +131,22 @@ p {
   max-width: 350px;
   border-radius: 20px;
   filter: grayscale(100%);
+  transition: all 2000ms ease-in-out;
 }
 .image-lilia:hover {
   filter: grayscale(0%);
   cursor: pointer;
-  transition: all 1000ms ease-in-out;
 }
+
 .work-inquiry-section {
   background: var(--primary-color);
   border-radius: 6px;
   padding: 30px 120px;
 }
-
+.work-section h2 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+}
 .contact-info:hover {
   border-bottom: 2px solid var(--secondary-color);
 }
@@ -154,6 +161,10 @@ p {
 .about-me {
   text-align: justify;
   text-align-last: left;
+}
+.my-research-projects h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
 }
 footer .social-links a {
   margin: 0 10px;
@@ -173,6 +184,19 @@ footer .social-links a:hover {
 .each-contact a:hover {
   text-decoration: underline !important;
 }
+.image-projects {
+  transition: transform 500ms ease-in-out, translate 500ms ease-in-out;
+  cursor: pointer;
+}
+.image-projects:hover {
+  transform: scale(2);
+}
+.image-projects-1:hover {
+  translate: 50% -50%;
+}
+.image-projects-2:hover {
+  translate: -50% +50%;
+}
 /* media section */
 @media (max-width: 900px) {
   .nav-link:hover,
@@ -185,9 +209,6 @@ footer .social-links a:hover {
     line-height: 1.2 !important;
   }
 
-  /* h2 {
-    font-size: 18px !important;
-  } */
   h3 {
     margin-bottom: 0;
   }
@@ -209,6 +230,7 @@ footer .social-links a:hover {
     margin-bottom: 20px !important;
     font-size: 36px !important;
   }
+
   .project-description p {
     margin-bottom: 15px !important;
   }
@@ -260,7 +282,7 @@ footer .social-links a:hover {
 
   .each-contact {
     padding: 25px 12px;
-    border-bottom: 1px solid var(--secondary-color);
+    border-bottom: 1px dashed var(--secondary-color);
   }
   .each-contact:last-child {
     border: none;
