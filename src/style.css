@@ -189,13 +189,13 @@ footer .social-links a:hover {
   cursor: pointer;
 }
 .image-projects:hover {
-  transform: scale(2);
+  transform: scale(1.5);
 }
 .image-projects-1:hover {
-  translate: 50% -50%;
+  translate: 50%;
 }
 .image-projects-2:hover {
-  translate: -50% +50%;
+  translate: -50%;
 }
 /* media section */
 @media (max-width: 900px) {
